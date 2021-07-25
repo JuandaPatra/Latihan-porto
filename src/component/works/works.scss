@@ -1,0 +1,50 @@
+.works{
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .arrow{}
+
+    .slider{
+        height: 350px;
+        display: flex;
+        position: absolute;
+        left: 0;
+
+        .container{
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .item{
+                width: 700px;
+                height: 100%;
+                background-color: white;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .left{
+                    height: 80%;
+                    flex: 4;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .right{
+                    height: 100%;
+                    flex: 8;
+                    background-color: yellow;
+
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}

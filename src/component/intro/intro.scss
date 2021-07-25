@@ -1,0 +1,43 @@
+.intro{
+    background-color: white;
+    display: flex;
+
+    .left{
+        flex: 0.5;
+        // background-color: crimson;
+        padding: 10px;
+        overflow: hidden;
+
+        .ImgContainer{
+            width: 700px;
+            height: 700px;
+            margin: 10% 20%;
+            // border-radius: 50%;
+            // background-color: #212529;
+            
+            img{
+                width: 400px;
+                height: 400px;
+            }
+        }
+
+    }
+
+    .right{
+        flex: 0.5;
+        // background-color: lightskyblue;
+        overflow: hidden;
+
+        .wrapper{
+            margin: 20%;
+        }
+
+    }
+}
+
+@media(max-width:700px){
+    .intro{
+        display: flex;
+        flex-direction: column;
+    }
+}
